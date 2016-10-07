@@ -1,0 +1,28 @@
+.glyphicon-menu-up{
+    color: black;
+    cursor: pointer
+}
+
+.glyphicon-menu-down{
+    color: black;
+    cursor: pointer
+}
+
+.highlighted{
+    color: orange;
+    font-weight: bold;
+}
+
+.voter-button{
+    cursor: pointer;
+}
+
+.voter-count{
+    font-size: 1.2em;
+}
+
+.voter{
+    width: 20px;
+    text-align: center;
+    color: #999;
+}

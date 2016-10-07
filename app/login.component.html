@@ -1,0 +1,27 @@
+<h3>Login Ex</h3>
+
+<from [ngFormModel]="form" (ngSubmit)="changePassword()">
+    <div class="form-group">
+        <label for="currentpassword">Current Password</label>
+        <input type="text" 
+               class="form-control"
+               id="currentpassword">
+    </div>
+
+    <div class="form-group">  
+        <label for="newpassword">New Password</label>
+        <input type="text" 
+               class="form-control"
+               id="currentpassword">
+    </div>
+
+    <div class="form-group">
+        <label for="confirmpassword">Confirm Password</label>
+        <input type="text" 
+               class="form-control"
+               id="currentpassword">
+    </div>
+
+    <button class="btn btn-primary" type="submit">Change Password</button>
+
+</from>
